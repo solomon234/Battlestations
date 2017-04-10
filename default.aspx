@@ -73,9 +73,8 @@
 			</div>
 		</div>
 		</h1>
-		<div class="msg">Thank You For Visiting Our Website Please Check Back On Sunday For a Pre-Built Order Page.</p>
 		<footer>
-			<p>&copy; 2016 Battlestations.me. All rights reserved.</p>
+			<p>&copy; 2016-2017 Battlestations.me. All rights reserved.</p>
 		</footer>
 		
 		
