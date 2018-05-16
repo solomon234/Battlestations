@@ -249,6 +249,9 @@ header p {
 
 
 /*ContactWrap internals */
+#contactWrap {
+    text-align: center;
+}
 .inputs {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
