@@ -107,6 +107,7 @@ a {
 	margin-top:10px;
 }
 .toggle-btn:hover{
+  text-color: white;
   background: black;
   -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
