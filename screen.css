@@ -99,7 +99,7 @@ a {
 .toggle-btn{
 	display:none;
 	cursor: pointer;
-	border:2px solid black;
+	border:2px solid #cf7abe03;
 	background-color:white;
 	padding:2px;
 	font-size:60%;
@@ -107,8 +107,16 @@ a {
 	margin-top:10px;
 }
 .toggle-btn:hover{
-	background-color:black;
-	color:white;
+  width: 150px;
+  height: 150px;
+  background: black;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
 .toggle-btn-visible{
 	display:block;
@@ -249,9 +257,7 @@ header p {
 
 
 /*ContactWrap internals */
-#contactWrap {
-    text-align: center;
-}
+
 .inputs {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
