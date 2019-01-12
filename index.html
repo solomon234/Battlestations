@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html>
-	
-	<head>
-		<meta charset="utf-8">
-		<title>Battlestations</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="js/jquery.js"></script>
-		<script src="js/cycle2.js"></script>
-		<script src="js/declarativeToggle.js"></script>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="screen.css" />
-		<script src="js/textticker.js"></script>
-                <script src="js/contactform.js"></script>    
-		<script src="js/ref_emails.js"></script>   		
 
-	</head>
-	
-	<body>
-		
-		<header class="section">
-			
-			<!-- container -->
-			<div class="container ">
-				<img class="logo" src="logo.jpg" />
-				<form  name="tickform"><input class="slogan" type="text"  name="tickfield" size="40"></form>
-				<script language="javascript">textticker();</script> 
-			</div><!-- /container -->
-			
-		</header>
-		
-		<div class="content-area group">
-			
-			<!-- cycle-slideshow-->
-			<div class="cycle-slideshow" data-cycle-loader="wait" data-cycle-manual-fx="scrollHorz" data-cycle-manual-speed="200">
-				<span class="cycle-prev">&laquo;</span>						
-				<span class="cycle-next">&raquo;</span>							
-				<span class="cycle-pager"></span>					
-				<img  src="Images/BattleStations1.jpg" alt="battlestations1" />
-				<img  src="Images/BattleStations2.jpg" alt="battlestations2" />
-				<img  src="Images/BattleStations3.jpg" alt="battlestations3" />
-				<img  src="Images/BattleStations4.jpg" alt="battlestations4" />
-			</div><!-- /cycle-slideshow -->
-			
-		</div>
-		<h1>
+<head>
+	<meta charset="utf-8">
+	<title>Battlestations</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery.js"></script>
+	<script src="js/cycle2.js"></script>
+	<script src="js/declarativeToggle.js"></script>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="screen.css" />
+	<script src="js/textticker.js"></script>
+	<script src="js/contactform.js"></script>
+	<script src="js/ref_emails.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Thasadith:700" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<header class="section">
+
+		<!-- container -->
+
+
+	</header>
+
+	<div class="content-area group">
+		<div class="container ">
+			<img class="logo animated bounceInRight" src="logo.jpg" />
+			<form name="tickform"><input class="slogan" type="text" name="tickfield" size="40"></form>
+			<script language="javascript">textticker();</script>
+		</div><!-- /container -->
+		<!-- cycle-slideshow-->
+		<div class="cycle-slideshow animated fadeIn slow" data-cycle-loader="wait" data-cycle-manual-fx="scrollHorz" data-cycle-manual-speed="200">
+			<span class="cycle-prev">&laquo;</span>
+			<span class="cycle-next">&raquo;</span>
+			<span class="cycle-pager"></span>
+			<img src="Images/BattleStations1.jpg" alt="battlestations1" />
+			<img src="Images/BattleStations2.jpg" alt="battlestations2" />
+			<img src="Images/BattleStations3.jpg" alt="battlestations3" />
+			<img src="Images/BattleStations4.jpg" alt="battlestations4" />
+		</div><!-- /cycle-slideshow -->
+
+	</div>
+	<h1>
 		<div class="info-box">
 			<span data-toggle-target="#contactWrap" class="toggle-btn">Click Here To Make Your Custom Order Today</span>
 			<div id="contactWrap">
-			
-				<form method="post" action="email.php">
-					<input name="email" type="email" class="inputs" placeholder="E-Mail" />
-				<br />
-					<input name="emailconfirm" type="email" class="inputs" placeholder="Confirm E-Mail" />
-				<br />
+
+				<form method="post" action="email.php" class="form_style">
+					<input name="email" type="email" class="inputs" placeholder="E-Mail">
+
+					<input name="emailconfirm" type="email" class="inputs" placeholder="Confirm E-Mail">
+
 					<div id="dropdown">
 						<select name="refer" onClick="myFunction()" class="dropbtn">
 							<div class="dropdown-content">
@@ -65,19 +68,19 @@
 							</div>
 						</select>
 					</div>
-				<textarea name="message" rows="auto" cols="auto" class="bigbox" placeholder="In your own words. describe your day-to-day workload. what do you strive to accomplish with your brand new PC, For Example. Video Editing, 3D Design, Gaming, VR Ready Machines or Music Production to name a few... In addition, we ask to carefully consider your budget, form factor (Shape/Size), and other useful information to help better build your ideal solution." ></textarea>
-			<br />
+					<textarea name="message" rows="auto" cols="auto" class="bigbox" placeholder="In your own words. describe your day-to-day workload. what do you strive to accomplish with your brand new PC, For Example. Video Editing, 3D Design, Gaming, VR Ready Machines or Music Production to name a few... In addition, we ask to carefully consider your budget, form factor (Shape/Size), and other useful information to help better build your ideal solution."></textarea>
+					<br />
 					<input type="submit" class="btn" value="Submit" />
 				</form>
-		
+
 			</div>
 		</div>
-		</h1>
-		<footer>
-			<p>&copy; 2016-2018 Battlestations.me. All rights reserved.</p>
-		</footer>
-		
-		
-	</body>
-	
+	</h1>
+	<footer>
+		<p>&copy; 2016-2018 Battlestations.me. All rights reserved.</p>
+	</footer>
+
+
+</body>
+
 </html>
