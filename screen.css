@@ -134,6 +134,8 @@ a {
   max-width: 1900px;
   overflow: hidden;
 }
+#dropdown{
+  margin-top: 2%;
 }
 
 @media screen and (max-width: 1980px) {
@@ -164,12 +166,12 @@ a {
   }
 
   .info-box {
-    margin-left: -50px;
+    margin-left: -35px;
   }
 
   .toggle-btn {
     font-size: 50%;
-    margin-left: 20px;
+
   }
 
   .bigbox {
@@ -182,9 +184,7 @@ a {
     max-width: 100%;
   }
 
-  #dropdown {
-    width: 10px;
-  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -261,6 +261,7 @@ header p {
   position: relative;
   background-color: #FFF;
   padding: 30px 40px 7px 40px;
+  width: 92vw;
 }
 
 /*ContactWrap internals */
@@ -291,10 +292,10 @@ header p {
   letter-spacing: 1px;
 }
 .inputs:first-child{
-	margin-left: -4%;
+	margin-left:0;
 }
 .inputs:not(first-child){
-	margin-left:2%;
+	margin-left:10%;
 }
 
 .inputs:focus {
@@ -347,13 +348,6 @@ header p {
   outline: none;
 }
 
-#dropdown {
-  position: relative;
-  width: 20%;
-  display: inline-block;
-  letter-spacing: 1px;
-  margin-left: 10px;
-}
 
 .btn {
   -webkit-border-radius: 3px;
@@ -529,7 +523,7 @@ header p {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .col-md-11 {
     width: 91.662%
   }
@@ -572,6 +566,10 @@ header p {
 
   .col-md-1 {
     width: 8.332%;
+  }
+
+  .inputs{
+	    width: 32%;
   }
 }
 
@@ -625,14 +623,54 @@ header p {
   .push-down-sm {
     margin-bottom: 30px;
   }
+  select.dropbtn {
+      margin-top: 4%;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
   .push-down-sm {
     margin-bottom: 15px;
   }
-}
+  .info-box{
+      width:88vw;
+  }
 
+  #contactWrap{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .inputs{
+    margin:0;
+    width:80%;
+    }
+    .inputs:first-child{
+    	margin-left: 0;
+    }
+    .inputs:not(first-child) {
+      margin-top: 2%;
+        margin-left: 0;
+    }
+    select.dropdown{
+      margin-top:0;
+    }
+}
+@media screen and (max-width: 560px){
+  .dropbtn{
+    padding-left: 14px;
+    padding-right: 4px;
+  }
+
+  #dropdown{
+  	width: 40%;
+  	float:center;
+    display: block;
+    left:8px;
+  	top: 5px;
+  	right: 10px;
+  }
+}
 footer {
   text-align: center;
   font-size: 80%;
@@ -664,4 +702,12 @@ footer {
 .row,
 .group {
   zoom: 1;
+}
+@media screen and (max-width: 375px){
+  select.dropbtn{
+    width:265px;
+  }
+  .bigbox {
+    min-width: 64vw;
+    margin-left: 0;
 }
